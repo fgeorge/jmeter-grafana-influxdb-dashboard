@@ -45,7 +45,7 @@ The Grafana dashboard will have the following metrics displayed.
     2. Update the value of `influxdbUrl` parameter to `<url>/api/v2/write?org=<org>&bucket=<bucket>` and update the url, org and bucket for your influxdb setup.
     3. Add a parameter `influxdbToken` and provide the API Token for influxdb.
         ![Backend Listener Config](/img/JMeter-Influxdb-Config-Screenshot6.jpg)
-8. When running performance tests from JMeter CLI with fairly large number of users, we might need to see the respose details for failed requests. In order to do the same, please add a JSR223 Listener (insert it before the backend listener in JMeter tree) and add the below code to it. This script was riginally written by
+8. When running performance tests from JMeter CLI with fairly large number of users, we might need to see the respose details for failed requests. In order to do the same, please add a JSR223 Listener (insert it before the backend listener in JMeter tree) and add the below code to it. This script was originally written by
 [Anton Serputko](<https://github.com/serputko>); All credit goes to him, I have just modified his original script to remove `\r` characters because it looks like influxdb 2.x doesn't like those characters for write.
 
 ```groovy
