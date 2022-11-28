@@ -1,0 +1,16 @@
+# ignore IDE files
+/.project
+.idea/*
+.vscode/*
+
+# ignore MacOS files
+**/.DS_Store
+.DS_Store
+
+# ignore all excel tmp files
+~$*.xlsx
+
+# ignore other temporary files
+
+*.log
+*.err
