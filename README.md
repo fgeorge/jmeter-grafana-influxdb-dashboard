@@ -4,7 +4,7 @@
 
 1. Add a JSR223 Listener to your jmx and paste the [code](<https://gist.github.com/fgeorge/07432d6e2c25d40128a1234da845adb2>).
 2. Add a Backend Listener `org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient` to your jmx.
-3. Import the [Grafana dashboard json](JMeter_Performance_Testing_Dashboard.json).
+3. Import the [Grafana dashboard](https://grafana.com/grafana/dashboards/17506-jmeter-performance-testing-dashboard/).
 
 ## Background
 
